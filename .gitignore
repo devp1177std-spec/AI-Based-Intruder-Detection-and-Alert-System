@@ -1,0 +1,22 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and temporary caches
+models/*.pt
+yolov8n.pt
+
+# User local data and secrets
+.env
+data/events.db
+camera_test_snapshot.jpg
+
+# OS artifacts
+Thumbs.db
+.DS_Store
